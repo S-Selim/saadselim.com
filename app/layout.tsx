@@ -28,16 +28,16 @@ export const metadata = {
     },
   },
   twitter: {
-    title: "Lee Robinson",
+    title: "Saad Selim",
     card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.ico",
   },
-  verification: {
-    google: "eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw",
-    yandex: "14d2e73487fa6c71",
-  },
+  // verification: {
+  //   google: "eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw",
+  //   yandex: "14d2e73487fa6c71",
+  // },
 };
 
 export default function RootLayout({

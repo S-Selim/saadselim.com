@@ -1,31 +1,31 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
+import Link from "next/link";
+import Image from "next/image";
+import { getBlogViews, getTweetCount, getStarCount } from "lib/metrics";
 import {
   ArrowIcon,
   GitHubIcon,
   TwitterIcon,
   ViewsIcon,
-} from 'components/icons';
-import { name, about, bio, avatar } from 'lib/info';
+} from "components/icons";
+import { name, about, bio, avatar } from "lib/info";
 
 export const revalidate = 60;
 export const metadata = {
-  description: 'Developer, writer, and creator.',
+  description: "Developer, writer, and creator.",
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: "Lee Robinson",
+    description: "Developer, writer, and creator.",
+    url: "https://saadselim.com",
+    siteName: "Saad Selim",
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: "https://saadselim.com/og.jpg",
         width: 1920,
         height: 1080,
       },
     ],
-    locale: 'en-US',
-    type: 'website',
+    locale: "en-US",
+    type: "website",
   },
 };
 
@@ -61,7 +61,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/ss6942"
             className="flex items-center gap-2"
           >
             <TwitterIcon />
@@ -70,7 +70,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/S-Selim"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
@@ -91,7 +91,7 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/ss6942"
           >
             <ArrowIcon />
             <p className="h-7">follow me on twitter</p>
@@ -102,7 +102,7 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://leerob.substack.com"
+            href="https://saadselim.substack.com/"
           >
             <ArrowIcon />
             <p className="h-7">get email updates</p>

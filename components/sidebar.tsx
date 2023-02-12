@@ -37,7 +37,7 @@ function Logo() {
     <Link aria-label="Saad Selim" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
-        width="24"
+        width="25"
         height="37"
         viewBox="0 0 24 24"
         fill="none"

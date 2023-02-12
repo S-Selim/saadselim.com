@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Uses',
+  title: "Uses",
   description:
     "Here's what tech I'm currently using for coding, videos, and music.",
 };
@@ -26,7 +26,7 @@ export default function UsesPage() {
         <ul>
           <li>
             Editor: VSCode (
-            <a href="https://gist.github.com/leerob/e7883ab35d900b8cbb684ac77e7c4703">
+            <a href="https://gist.github.com/S-Selim/5dfe1a185cb4e8ae51b086deff47ef36">
               Settings / Extensions
             </a>
             )
